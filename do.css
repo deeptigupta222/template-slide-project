@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: "poppins"
+}
+* {
+ box-sizing: border-box;
+}
+/* utilites */
+h1 {
+    margin: 0;
+}
+.btn_dark {
+    background-color: rgb(6, 14, 69);
+    color: rgb(16, 134, 238);
+    text-decoration: none;
+    padding: 15px 20PX;
+    border-radius: 100px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+
+}
+.btn_dark:hover {
+    background-color: rgb(9, 49, 249);
+    color: darkorange;
+    
+}
+
+.margin_top {
+    margin-top: 15px;
+}
+/* Navbar */
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+    background-color: rgb(7, 7, 7);
+}
+
+
+.navbar ul li{
+    display: inline-block;
+
+}
+.navbar li a {
+    display: block;
+    color: rgb(1, 9, 16);
+    text-decoration: none;
+    text-transform: uppercase ;
+    padding: 25px 20px;
+    font-size: 4px;
+    color: rgba(245, 218, 9, 0.755);
+}
+/* rajasthan travellers */
+.hero_section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(12, 95, 249, 0.404);
+}
+
+/* hero section */
+.hero_section{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Downloads/mmmmmmmmm.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* filter: blur(8px); */
+    /* background-blend-mode: multiply; */
+}
+
+.hero_taxt {
+    color: #02078e;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero_taxt h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+.hero_taxt p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
